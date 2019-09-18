@@ -27,7 +27,9 @@ if (isset ($_POST['Login'])) {
         <title>Login here...</title>
     </head>
     <body>
-        <form action="" method="post" class="col-sm-12">
+    <div class="col-sm-12">
+    <div class="page-header"><h1 align="center">Login</h1><br></div>
+        <form action="" method="post">
         
         <center>
             <div class="card" style="width: 18rem;">
@@ -40,6 +42,7 @@ if (isset ($_POST['Login'])) {
             </div>
         </center>
         </form>
+    </div>
     </body>
 </html>
 <?php } ?>
